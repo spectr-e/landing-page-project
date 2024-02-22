@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4 font-semibold cursor-pointer;
+  }
+  button {
+    @apply text-white border font-semibold cursor-pointer bg-indigo-600 border-indigo-600 hover:bg-transparent rounded-lg;
+  }
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+}

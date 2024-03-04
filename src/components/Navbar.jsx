@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <div className='w-screen h-[80px] z-10 bg-white fixed drop-shadow-lg'>
+    <div className='w-screen h-[80px] z-10 bg-white top-0 fixed drop-shadow'>
       <div className='flex justify-between items-center w-full h-full md:max-w-[1240px] m-auto'>
         <div className='flex items-center'>
           <img
@@ -29,10 +29,10 @@ const Navbar = () => {
 
         {/* Login & Get Started buttons */}
         <div className='hidden md:flex sm:mr-8 md:mr-8'>
-          <button className='border-none hover:bg-gray-200 py-5 px-8 bg-gray-100 text-black mr-4'>
+          <button className='px-8 py-5 mr-4 text-black bg-gray-100 border-none hover:bg-gray-200'>
             Login
           </button>
-          <button className='hover:bg-indigo-700 px-8 py-4'>Get Started</button>
+          <button className='px-8 py-4 hover:bg-indigo-700'>Get Started</button>
         </div>
 
         {/* Hambuger buttons */}
@@ -63,7 +63,7 @@ const Navbar = () => {
           <li className='hover:bg-gray-100 hover:rounded-lg'>Platform</li>
           <li className='hover:bg-gray-100 hover:rounded-lg'>Pricing</li>
           <div className='flex flex-col my-4'>
-            <button className='hover:bg-gray-200 text-black border-none bg-gray-100 mb-4 py-4 px-8'>
+            <button className='px-8 py-4 mb-4 text-black bg-gray-100 border-none hover:bg-gray-200'>
               Login
             </button>
             <button className='px-8 py-4 hover:bg-indigo-700'>

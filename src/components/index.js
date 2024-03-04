@@ -1,4 +1,4 @@
 import Navbar from './Navbar'
 import Hero from './Hero'
-
-export { Navbar, Hero }
+import Companies from './Companies'
+export { Navbar, Hero, Companies }

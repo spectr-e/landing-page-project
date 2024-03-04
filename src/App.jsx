@@ -1,4 +1,4 @@
-import { Companies, Hero, Navbar } from './components/'
+import { Companies, Courses, Hero, Navbar } from './components/'
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <main className='mt-[80px] mx-8'>
         <Hero />
         <Companies />
+        <Courses />
       </main>
     </div>
   )

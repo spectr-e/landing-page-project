@@ -3,7 +3,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 
 const Hero = () => {
   return (
-    <div className='w-full py-16 bg-white'>
+    <div className='w-full px-8 py-16 bg-white'>
       <div className='max-w-[600px] md:max-w-[1480px] m-auto grid md:grid-cols-2'>
         <div className='flex flex-col justify-start gap-4'>
           <p className='text-2xl py-2 text-[#20B486] font-medium'>

@@ -1,12 +1,13 @@
-import { Companies, Hero, Navbar } from './components/'
+import { Companies, Courses, Hero, Navbar } from './components/'
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <main className='mt-[80px] mx-8'>
+      <main className='mt-[80px]'>
         <Hero />
         <Companies />
+        <Courses />
       </main>
     </div>
   )

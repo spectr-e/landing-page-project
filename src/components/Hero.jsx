@@ -36,7 +36,11 @@ const Hero = () => {
           </form>
         </div>
 
-        <img src={heroImg} alt='hero' className='order-first md:order-last' />
+        <img
+          src={heroImg}
+          alt='hero'
+          className='order-first hidden md:flex md:order-last'
+        />
       </div>
     </div>
   )

@@ -29,7 +29,7 @@ const Navbar = () => {
 
         {/* Login & Get Started buttons */}
         <div className='hidden md:flex sm:mr-8 md:mr-8'>
-          <button className='px-8 py-5 mr-4 text-black bg-gray-100 border-none hover:bg-gray-200'>
+          <button className='px-8 py-5 mr-4 text-black bg-gray-100 hover:bg-gray-200'>
             Login
           </button>
           <button className='px-8 py-4 hover:bg-indigo-700'>Get Started</button>

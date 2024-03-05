@@ -5,5 +5,15 @@ import Card from './Card'
 import Courses from './Courses'
 import Rating from './Rating'
 import Achievements from './Achievements'
+import Categories from './Categories'
 
-export { Navbar, Hero, Companies, Card, Courses, Rating, Achievements }
+export {
+  Categories,
+  Navbar,
+  Hero,
+  Companies,
+  Card,
+  Courses,
+  Rating,
+  Achievements,
+}

@@ -1,4 +1,11 @@
-import { Achievements, Companies, Courses, Hero, Navbar } from './components/'
+import {
+  Achievements,
+  Categories,
+  Companies,
+  Courses,
+  Hero,
+  Navbar,
+} from './components/'
 
 const App = () => {
   return (
@@ -9,6 +16,7 @@ const App = () => {
         <Companies />
         <Courses />
         <Achievements />
+        <Categories />
       </main>
     </div>
   )

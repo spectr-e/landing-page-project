@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const Rating = ({ stars }) => {
+const Rating = ({ stars, reviews }) => {
   return (
     <div className='flex items-center'>
       {[...Array(stars)].map(() => (
@@ -28,7 +28,7 @@ const Rating = ({ stars }) => {
         </svg>
       ))}
 
-      <p className='ml-2'>(15)</p>
+      <p className='ml-2'>({reviews})</p>
     </div>
   )
 }

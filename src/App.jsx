@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <main className='mt-[80px] mx-8'>
+      <main className='mt-[80px]'>
         <Hero />
         <Companies />
         <Courses />

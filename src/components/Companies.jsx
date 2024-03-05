@@ -7,7 +7,7 @@ import {
 
 const Companies = () => {
   return (
-    <div className='w-full py-[48px] bg-white'>
+    <div className='w-full py-[48px] px-8 bg-white'>
       <div className='max-w-[600px] md:max-w-[1480px] m-auto'>
         <h1 className='text-2xl font-bold text-center text-[#536E96]'>
           Trusted by over 25,000 teams around the world.

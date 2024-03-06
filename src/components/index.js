@@ -9,8 +9,10 @@ import Categories from './Categories'
 import CategoriesCard from './CategoriesCard'
 import Feedback from './Feedback'
 import FeedbackCard from './FeedbackCard'
+import Cta from './Cta'
 
 export {
+  Cta,
   Feedback,
   FeedbackCard,
   Categories,

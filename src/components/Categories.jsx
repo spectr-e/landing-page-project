@@ -1,4 +1,18 @@
 import CategoriesCard from './CategoriesCard'
+import {
+  PiFileHtml,
+  PiShootingStar,
+  PiChatsCircle,
+  PiBriefcase,
+  PiCamera,
+  PiMusicNoteSimple,
+  PiCurrencyCircleDollar,
+  PiBookOpenText,
+} from 'react-icons/pi'
+import { MdOutlineDesignServices } from 'react-icons/md'
+import { FaUncharted } from 'react-icons/fa'
+import { CgGym } from 'react-icons/cg'
+import {   BsPersonWalking } from 'react-icons/bs'
 
 const Categories = () => {
   return (
@@ -12,29 +26,59 @@ const Categories = () => {
         </p>
         <div className='grid grid-cols-2 gap-2 py-8 md:grid-cols-4'>
           {/* 1. design */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<MdOutlineDesignServices size={28} />}
+            title={'Design'}
+          />
           {/* 2. development */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<PiFileHtml size={28} />}
+            title={'Development'}
+          />
           {/* 3. marketing */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<PiChatsCircle size={28} />}
+            title={'Marketing'}
+          />
           {/* 4. business */}
-          <CategoriesCard />
+          <CategoriesCard icon={<PiBriefcase size={28} />} title={'Business'} />
           {/* 5. lifestyle */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<PiShootingStar size={28} />}
+            title={'Lifestyle'}
+          />
           {/* 6. photography */}
-          <CategoriesCard />
+          <CategoriesCard icon={<PiCamera size={28} />} title={'Photograpy'} />
           {/* 7. music */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<PiMusicNoteSimple size={28} />}
+            title={'Music'}
+          />
           {/* 8. data science */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<FaUncharted size={28} />}
+            title={'Data Science'}
+          />
           {/* 9.personal development */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<BsPersonWalking size={28} />}
+            title={'Personal Development'}
+          />
           {/* 10. health and fitness */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<CgGym size={28} />}
+            title={'Heatlh & Fitness'}
+          />
           {/* 11. finance */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<PiCurrencyCircleDollar size={28} />}
+            title={'Finance'}
+          />
           {/* 12. teaching */}
-          <CategoriesCard />
+          <CategoriesCard
+            icon={<PiBookOpenText size={28} />}
+            title={'Teaching'}
+          />
         </div>
       </div>
     </div>

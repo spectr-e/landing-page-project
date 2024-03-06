@@ -6,9 +6,11 @@ import Courses from './Courses'
 import Rating from './Rating'
 import Achievements from './Achievements'
 import Categories from './Categories'
+import CategoriesCard from './CategoriesCard'
 
 export {
   Categories,
+  CategoriesCard,
   Navbar,
   Hero,
   Companies,

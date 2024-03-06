@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import Rating from './Rating'
 
-const Card = ({ course }) => {
+const CourseCard = ({ course }) => {
   return (
     <div className='m-2 my-4 overflow-hidden bg-white rounded-2xl drop-shadow-md'>
       <img
@@ -23,4 +23,4 @@ const Card = ({ course }) => {
   )
 }
 
-export default Card
+export default CourseCard

@@ -6,16 +6,22 @@ import {
   PiSunHorizon,
   PiCamera,
 } from 'react-icons/pi'
-import { BsArrowUpRightSquareFill, BsCodeSlash } from 'react-icons/bs'
+import { BsCodeSlash } from 'react-icons/bs'
 
 const CategoriesCard = () => {
   return (
-    <div className='flex items-center justify-between p-4 bg-white border rounded-md shadow-lg'>
-      <div className='flex items-center gap-4'>
+    <div className='category-card flex items-center justify-between p-4 bg-white border border-transparent group/edit hover:cursor-pointer hover:border-[#20B486] rounded-md shadow-lg'>
+      <div className='flex items-center gap-2'>
         <RiQuillPenLine size={28} />
         <h1 className='font-semibold'>Design</h1>
       </div>
-      <GoArrowUpRight size={28} style={{ color: '#20B486' }} />
+      <div className='group-hover/edit:bg-[#20B486] rounded-lg p-2'>
+        <GoArrowUpRight
+          size={24}
+          style={{ color: '#20B486' }}
+          className='arrow-icon'
+        />
+      </div>
     </div>
   )
 }

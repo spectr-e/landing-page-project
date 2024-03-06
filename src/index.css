@@ -35,3 +35,7 @@
 .slick-prev {
   z-index: 99999;
 }
+
+.category-card:hover .arrow-icon {
+  fill: white;
+}

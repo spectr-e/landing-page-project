@@ -10,7 +10,7 @@ const Categories = () => {
         <p className='text-[#6D737A]'>
           Various versions have evolved over the years, sometimes by accident.
         </p>
-        <div className='grid grid-cols-4 grid-rows-3 gap-2 py-8'>
+        <div className='grid grid-cols-2 gap-2 py-8 md:grid-cols-4'>
           {/* 1. design */}
           <CategoriesCard />
           {/* 2. development */}

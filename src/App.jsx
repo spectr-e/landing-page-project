@@ -3,6 +3,8 @@ import {
   Categories,
   Companies,
   Courses,
+  Cta,
+  Feedback,
   Hero,
   Navbar,
 } from './components/'
@@ -17,6 +19,8 @@ const App = () => {
         <Courses />
         <Achievements />
         <Categories />
+        <Feedback />
+        <Cta />
       </main>
     </div>
   )

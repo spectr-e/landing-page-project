@@ -1,20 +1,19 @@
 import Slider from 'react-slick'
-import { courses } from '../data/Courses'
-import { CourseCard } from '../components'
+import { FeedbackCard } from '../components'
 
-const Courses = () => {
+const Feedback = () => {
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: false,
           dots: true,
         },
@@ -22,8 +21,8 @@ const Courses = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
       {
@@ -39,22 +38,21 @@ const Courses = () => {
     ],
   }
   return (
-    <div className='w-full py-24  px-8 bg-[#F0FBF7]'>
+    <div className='w-full px-8 py-24 bg-white'>
       <div className='max-w-[600px] md:max-w-[1480px] m-auto'>
         <h1 className='py-4 text-3xl font-bold'>
-          Most Popular <span className='text-[#20B486]'>Courses</span>
+          Student <span className='text-[#20B486]'>Feedback</span>
         </h1>
         <p className='text-[#6D737A]'>
           Various versions have evolved over the years, sometimes by accident.
         </p>
         <Slider {...settings}>
-          {courses.map((course) => (
-            <CourseCard course={course} key={course.id} />
-          ))}
+          <FeedbackCard />
+          <FeedbackCard />
         </Slider>
       </div>
     </div>
   )
 }
 
-export default Courses
+export default Feedback

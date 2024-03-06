@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from 'react'
-import { hamburgerMenu, close, logo } from '../assets/'
+import { hamburgerMenu, close, logo, lock } from '../assets/'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
@@ -12,7 +12,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt='logo'
-            className='sm:ml-8 ss:ml-8 md:ml-4 opacity-[55%] w-full h-[24px]'
+            className='ml-8 opacity-[55%] w-full h-[24px]'
           />
         </div>
 
@@ -28,12 +28,13 @@ const Navbar = () => {
         </div>
 
         {/* Login & Get Started buttons */}
-        <div className='hidden md:flex sm:mr-8 md:mr-8'>
-          <button className='px-8 py-5 mr-4 text-black bg-gray-100 hover:bg-gray-200'>
+        <div className='hidden gap-2 mr-8 md:flex'>
+          <button className='flex items-center justify-between gap-2 px-6 text-gray-600 bg-gray-100 hover:bg-gray-300'>
+            <img src={lock} />
             Login
           </button>
-          <button className='px-8 py-4 hover:text-gray-900 hover:bg-[#20B486]/90'>
-            Get Started
+          <button className='px-8 py-3 rounded-md bg-[#20B486] hover:bg-[#20b485d0] text-white font-bold'>
+            Sign Up
           </button>
         </div>
 

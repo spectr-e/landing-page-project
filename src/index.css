@@ -11,7 +11,7 @@
     @apply p-4 font-semibold cursor-pointer;
   }
   button {
-    @apply text-white font-semibold cursor-pointer bg-indigo-600 border-indigo-600 hover:bg-transparent rounded-lg;
+    @apply text-white font-semibold cursor-pointer bg-[#20B486] border-indigo-600 hover:bg-transparent rounded-lg;
   }
   ul {
     padding: 0;

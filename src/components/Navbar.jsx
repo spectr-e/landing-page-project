@@ -32,7 +32,9 @@ const Navbar = () => {
           <button className='px-8 py-5 mr-4 text-black bg-gray-100 hover:bg-gray-200'>
             Login
           </button>
-          <button className='px-8 py-4 hover:bg-indigo-700'>Get Started</button>
+          <button className='px-8 py-4 hover:text-gray-900 hover:bg-[#20B486]/90'>
+            Get Started
+          </button>
         </div>
 
         {/* Hambuger buttons */}

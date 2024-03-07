@@ -10,8 +10,10 @@ import CategoriesCard from './CategoriesCard'
 import Feedback from './Feedback'
 import FeedbackCard from './FeedbackCard'
 import Cta from './Cta'
+import Footer from './Footer'
 
 export {
+  Footer,
   Cta,
   Feedback,
   FeedbackCard,

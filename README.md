@@ -1,8 +1,4 @@
-# React + Vite
+# Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Description
+Welcome to the Landing Page Development in ReactJS and Tailwind course! This comprehensive program will teach you everything you need to know about building professional and beautiful landing pages using the latest technologies. Whether you're a beginner or an experienced developer, this course will take your skills to the next level.
